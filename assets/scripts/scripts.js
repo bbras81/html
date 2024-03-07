@@ -49,11 +49,11 @@ function listar(dados) {
         <a href="#" class="list-group-item list-group-item-action " aria-current="true">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">${dados[i].nome}</h5>
-          <small>${dados[i].hora}</small>
+          <small><strong>Hora: </strong>${dados[i].hora}</small>
         </div>
         <div class="d-flex w-100 justify-content-between">
-          <p class="mb-1">email</p>
-          <small>${dados[i].email}</small>
+          <p class="mb-1">${dados[i].email}</p>
+          <small><strong>Nr. Pessoas: </strong>${dados[i].nrPessoas}</small>
         </div>
         <small>${dados[i].telemovel}</small>
       </a> `;
